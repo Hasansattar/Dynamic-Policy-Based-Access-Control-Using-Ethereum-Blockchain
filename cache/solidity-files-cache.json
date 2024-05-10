@@ -1,0 +1,146 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "F:\\FAST-MS-ClASS-BOOKS\\SEMESTER_4\\Code-Thesis\\Hardhat-Testing-Case\\hard-hat-DPBAC -2\\contracts\\DPBAC.sol": {
+      "lastModificationDate": 1715076465771,
+      "contentHash": "3c0ae3d6208a261bc3f7da1a467e8ffe",
+      "sourceName": "contracts/DPBAC.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Policies.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DPBAC"
+      ]
+    },
+    "F:\\FAST-MS-ClASS-BOOKS\\SEMESTER_4\\Code-Thesis\\Hardhat-Testing-Case\\hard-hat-DPBAC -2\\contracts\\Policies.sol": {
+      "lastModificationDate": 1715076449088,
+      "contentHash": "4892170ca62aabd8df8ba5d13fc7ce85",
+      "sourceName": "contracts/Policies.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Users.sol",
+        "./Resources.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Policies"
+      ]
+    },
+    "F:\\FAST-MS-ClASS-BOOKS\\SEMESTER_4\\Code-Thesis\\Hardhat-Testing-Case\\hard-hat-DPBAC -2\\contracts\\Users.sol": {
+      "lastModificationDate": 1715076326927,
+      "contentHash": "35ea54f343063adb667dbb36230ff0cb",
+      "sourceName": "contracts/Users.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Users"
+      ]
+    },
+    "F:\\FAST-MS-ClASS-BOOKS\\SEMESTER_4\\Code-Thesis\\Hardhat-Testing-Case\\hard-hat-DPBAC -2\\contracts\\Resources.sol": {
+      "lastModificationDate": 1715076344988,
+      "contentHash": "8daf571d84de83f71c30e89d3b294f9d",
+      "sourceName": "contracts/Resources.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Resources"
+      ]
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Resources",
+  "sourceName": "contracts/Resources.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "link",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "enum Resources.ResourceType",
+          "name": "res",
+          "type": "uint8"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "res_id",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "location",
+          "type": "string"
+        }
+      ],
+      "name": "NewResource",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "link",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "enum Resources.ResourceType",
+          "name": "res",
+          "type": "uint8"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "location",
+          "type": "string"
+        }
+      ],
+      "name": "UpdateResource",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "resCounter",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "resourceIndex",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b506101be806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c8063324e40c01461003b578063628ca9f61461006b575b600080fd5b610055600480360381019061005091906100d3565b610089565b604051610062919061011a565b60405180910390f35b6100736100ad565b6040516100809190610135565b60405180910390f35b6006818154811061009957600080fd5b906000526020600020016000915090505481565b60008054906101000a900460ff1681565b6000813590506100cd81610171565b92915050565b6000602082840312156100e557600080fd5b60006100f3848285016100be565b91505092915050565b61010581610150565b82525050565b61011481610164565b82525050565b600060208201905061012f60008301846100fc565b92915050565b600060208201905061014a600083018461010b565b92915050565b6000819050919050565b6000819050919050565b600060ff82169050919050565b61017a8161015a565b811461018557600080fd5b5056fea26469706673582212201938f0edc85f7b154f13baa07119d2fb91de42f700642c9470d5bab8575ce43764736f6c63430008000033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c8063324e40c01461003b578063628ca9f61461006b575b600080fd5b610055600480360381019061005091906100d3565b610089565b604051610062919061011a565b60405180910390f35b6100736100ad565b6040516100809190610135565b60405180910390f35b6006818154811061009957600080fd5b906000526020600020016000915090505481565b60008054906101000a900460ff1681565b6000813590506100cd81610171565b92915050565b6000602082840312156100e557600080fd5b60006100f3848285016100be565b91505092915050565b61010581610150565b82525050565b61011481610164565b82525050565b600060208201905061012f60008301846100fc565b92915050565b600060208201905061014a600083018461010b565b92915050565b6000819050919050565b6000819050919050565b600060ff82169050919050565b61017a8161015a565b811461018557600080fd5b5056fea26469706673582212201938f0edc85f7b154f13baa07119d2fb91de42f700642c9470d5bab8575ce43764736f6c63430008000033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
